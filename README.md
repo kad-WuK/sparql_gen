@@ -52,3 +52,8 @@ When you want to query about a term act as a property or entity type like a ***a
 * Show all ***hotels*** in the ***administrative area*** where ***street address*** Victoriapark 612 is located. 
 * Show all ***places*** in Eindhoven, ***floor size*** larger than 100, ***date created*** earlier than 2015.
 * What is the ***administrative area*** that ***postal code*** 5611BM is located?
+
+# Next steps
+* Implement a evaluation method like accuracy to compare the current model with other versions that will be tested later.
+* Try a larger model in the cloud environment
+* Get feedback about questions that cannot be properly answered, then enlarge training set based on this.

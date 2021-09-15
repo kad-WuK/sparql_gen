@@ -1,0 +1,115 @@
+2021-09-09 21:15:30,183 INFO    MainThread:10740 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-09 21:15:30,184 INFO    MainThread:10740 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-09 21:15:30,184 INFO    MainThread:10740 [wandb_setup.py:_flush():69] setting login settings: {'mode': 'offline'}
+2021-09-09 21:15:30,184 INFO    MainThread:10740 [wandb_init.py:_log_setup():336] Logging user logs to d:\clone\subgraph_gen\wandb\offline-run-20210909_211530-15vc6n9p\logs\debug.log
+2021-09-09 21:15:30,184 INFO    MainThread:10740 [wandb_init.py:_log_setup():337] Logging internal logs to d:\clone\subgraph_gen\wandb\offline-run-20210909_211530-15vc6n9p\logs\debug-internal.log
+2021-09-09 21:15:30,184 INFO    MainThread:10740 [wandb_init.py:_jupyter_setup():287] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000026720E73F08>
+2021-09-09 21:15:30,185 INFO    MainThread:10740 [wandb_init.py:init():369] calling init triggers
+2021-09-09 21:15:30,185 INFO    MainThread:10740 [wandb_init.py:init():376] wandb.init called with sweep_config: {}
+config: {}
+2021-09-09 21:15:30,185 INFO    MainThread:10740 [wandb_init.py:init():418] starting backend
+2021-09-09 21:15:30,185 INFO    MainThread:10740 [backend.py:_multiprocessing_setup():71] multiprocessing start_methods=spawn, using: spawn
+2021-09-09 21:15:30,187 INFO    MainThread:10740 [backend.py:ensure_launched():123] starting backend process...
+2021-09-09 21:15:30,263 INFO    MainThread:10740 [backend.py:ensure_launched():128] started backend process with pid: 20400
+2021-09-09 21:15:30,264 INFO    MainThread:10740 [wandb_init.py:init():423] backend started and connected
+2021-09-09 21:15:30,305 INFO    MainThread:10740 [wandb_init.py:init():463] updated telemetry
+2021-09-09 21:15:30,306 INFO    MainThread:10740 [wandb_init.py:init():520] starting run threads in backend
+2021-09-09 21:15:32,785 INFO    MainThread:10740 [wandb_run.py:_console_start():1524] atexit reg
+2021-09-09 21:15:32,786 INFO    MainThread:10740 [wandb_run.py:_redirect():1371] redirect: SettingsConsole.WRAP
+2021-09-09 21:15:32,786 INFO    MainThread:10740 [wandb_run.py:_redirect():1414] Wrapping output streams.
+2021-09-09 21:15:32,786 INFO    MainThread:10740 [wandb_run.py:_redirect():1438] Redirects installed.
+2021-09-09 21:15:32,787 INFO    MainThread:10740 [wandb_init.py:init():544] run started, returning control to user process
+2021-09-09 21:15:32,788 INFO    MainThread:10740 [wandb_run.py:_config_callback():749] config_cb None None {'return_dict': True, 'output_hidden_states': False, 'output_attentions': False, 'torchscript': False, 'torch_dtype': None, 'use_bfloat16': False, 'pruned_heads': {}, 'tie_word_embeddings': True, 'is_encoder_decoder': False, 'is_decoder': False, 'add_cross_attention': False, 'tie_encoder_decoder': False, 'max_length': 20, 'min_length': 0, 'do_sample': False, 'early_stopping': False, 'num_beams': 1, 'num_beam_groups': 1, 'diversity_penalty': 0.0, 'temperature': 1.0, 'top_k': 50, 'top_p': 1.0, 'repetition_penalty': 1.0, 'length_penalty': 1.0, 'no_repeat_ngram_size': 0, 'encoder_no_repeat_ngram_size': 0, 'bad_words_ids': None, 'num_return_sequences': 1, 'chunk_size_feed_forward': 0, 'output_scores': False, 'return_dict_in_generate': False, 'forced_bos_token_id': None, 'forced_eos_token_id': None, 'remove_invalid_values': False, 'architectures': ['GPTNeoForCausalLM'], 'finetuning_task': None, 'id2label': {0: 'LABEL_0', 1: 'LABEL_1'}, 'label2id': {'LABEL_0': 0, 'LABEL_1': 1}, 'tokenizer_class': None, 'prefix': None, 'bos_token_id': 50256, 'pad_token_id': None, 'eos_token_id': 50256, 'sep_token_id': None, 'decoder_start_token_id': None, 'task_specific_params': None, 'problem_type': None, '_name_or_path': 'EleutherAI/gpt-neo-125M', 'transformers_version': '4.9.1', 'attention_layers': ['global', 'local', 'global', 'local', 'global', 'local', 'global', 'local', 'global', 'local', 'global', 'local'], 'model_type': 'gpt_neo', 'vocab_size': 50258, 'max_position_embeddings': 2048, 'hidden_size': 768, 'num_layers': 12, 'num_heads': 12, 'intermediate_size': None, 'window_size': 256, 'activation_function': 'gelu_new', 'resid_dropout': 0, 'embed_dropout': 0, 'attention_dropout': 0, 'layer_norm_epsilon': 1e-05, 'initializer_range': 0.02, 'summary_type': 'cls_index', 'summary_use_proj': True, 'summary_activation': None, 'summary_first_dropout': 0.1, 'summary_proj_to_labels': True, 'gradient_checkpointing': False, 'use_cache': True, 'attention_types': [[['global', 'local'], 6]], 'output_dir': './results', 'overwrite_output_dir': False, 'do_train': False, 'do_eval': False, 'do_predict': False, 'evaluation_strategy': 'no', 'prediction_loss_only': False, 'per_device_train_batch_size': 16, 'per_device_eval_batch_size': 16, 'per_gpu_train_batch_size': 'None', 'per_gpu_eval_batch_size': 'None', 'gradient_accumulation_steps': 1, 'eval_accumulation_steps': 'None', 'learning_rate': 5e-05, 'weight_decay': 0.01, 'adam_beta1': 0.9, 'adam_beta2': 0.999, 'adam_epsilon': 1e-08, 'max_grad_norm': 1.0, 'num_train_epochs': 5, 'max_steps': -1, 'lr_scheduler_type': 'linear', 'warmup_ratio': 0.0, 'warmup_steps': 100, 'log_level': -1, 'log_level_replica': -1, 'log_on_each_node': True, 'logging_dir': './logs', 'logging_strategy': 'steps', 'logging_first_step': False, 'logging_steps': 5000, 'save_strategy': 'steps', 'save_steps': 5000, 'save_total_limit': 'None', 'save_on_each_node': False, 'no_cuda': False, 'seed': 42, 'fp16': False, 'fp16_opt_level': 'O1', 'fp16_backend': 'auto', 'fp16_full_eval': False, 'local_rank': -1, 'tpu_num_cores': 'None', 'tpu_metrics_debug': False, 'debug': '[]', 'dataloader_drop_last': False, 'eval_steps': 'None', 'dataloader_num_workers': 0, 'past_index': -1, 'run_name': './results', 'disable_tqdm': False, 'remove_unused_columns': True, 'label_names': 'None', 'load_best_model_at_end': False, 'metric_for_best_model': 'None', 'greater_is_better': 'None', 'ignore_data_skip': False, 'sharded_ddp': '[]', 'deepspeed': 'None', 'label_smoothing_factor': 0.0, 'adafactor': False, 'group_by_length': False, 'length_column_name': 'length', 'report_to': "['tensorboard', 'wandb']", 'ddp_find_unused_parameters': 'None', 'dataloader_pin_memory': True, 'skip_memory_metrics': True, 'use_legacy_prediction_loop': False, 'push_to_hub': False, 'resume_from_checkpoint': 'None', 'push_to_hub_model_id': 'results', 'push_to_hub_organization': 'None', 'push_to_hub_token': 'None', '_n_gpu': 1, 'mp_parameters': '', 'train_batch_size': 16, 'eval_batch_size': 16}
+2021-09-09 21:15:32,790 INFO    MainThread:10740 [wandb_watch.py:watch():39] Watching
+2021-09-09 21:18:38,112 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:18:38,113 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:22:04,407 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:22:04,413 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:22:04,413 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:22:08,438 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:22:10,058 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:22:10,058 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:22:24,700 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:22:24,707 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:22:24,707 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:22:25,872 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:22:25,875 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:22:25,875 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:22:26,532 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:22:28,096 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:22:28,096 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:23:07,659 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:23:09,248 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:23:09,248 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:23:12,598 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:23:12,605 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:23:12,605 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:23:14,559 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:23:14,562 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:23:14,562 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:23:19,719 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:23:19,727 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:23:19,727 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:23:19,907 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:23:19,909 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:23:19,909 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:23:21,364 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:23:21,367 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:23:21,367 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:23:23,826 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:23:23,835 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:23:23,836 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:23:29,389 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:23:29,396 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:23:29,396 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:23:32,461 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:23:34,036 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:23:34,036 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:24:49,119 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:24:49,126 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:24:49,126 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:24:50,046 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:24:51,639 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:24:51,639 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:25:01,879 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:25:01,886 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:25:01,886 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:25:04,095 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:25:04,102 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:25:04,102 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:25:04,499 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:25:04,502 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:25:04,503 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:25:32,024 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:25:33,320 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:25:33,320 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:26:03,283 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:26:03,290 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:26:03,290 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:26:03,716 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:26:03,719 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:26:03,719 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:26:04,019 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:26:04,022 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:26:04,022 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:26:06,368 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:26:06,378 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:26:06,378 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:26:11,796 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:26:12,947 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:26:12,947 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:26:26,084 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:26:27,059 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:26:27,059 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:26:44,026 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:26:45,218 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:26:45,219 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:27:02,424 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:27:03,783 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:27:03,783 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:29:46,496 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:29:46,503 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:29:46,503 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook
+2021-09-09 21:29:46,834 INFO    MainThread:10740 [wandb_init.py:_resume_backend():258] resuming backend
+2021-09-09 21:29:46,836 INFO    MainThread:10740 [wandb_init.py:_pause_backend():249] pausing backend
+2021-09-09 21:29:46,836 INFO    MainThread:10740 [jupyter.py:save_ipynb():265] not saving jupyter notebook

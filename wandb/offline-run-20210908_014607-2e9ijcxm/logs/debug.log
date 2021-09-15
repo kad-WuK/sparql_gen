@@ -1,0 +1,16 @@
+2021-09-08 01:46:07,351 INFO    MainThread:31128 [wandb_setup.py:_flush():69] setting env: {}
+2021-09-08 01:46:07,351 INFO    MainThread:31128 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-08 01:46:07,351 INFO    MainThread:31128 [wandb_setup.py:_flush():69] setting login settings: {'mode': 'offline'}
+2021-09-08 01:46:07,351 INFO    MainThread:31128 [wandb_init.py:_log_setup():336] Logging user logs to d:\clone\subgraph_gen\wandb\offline-run-20210908_014607-2e9ijcxm\logs\debug.log
+2021-09-08 01:46:07,352 INFO    MainThread:31128 [wandb_init.py:_log_setup():337] Logging internal logs to d:\clone\subgraph_gen\wandb\offline-run-20210908_014607-2e9ijcxm\logs\debug-internal.log
+2021-09-08 01:46:07,352 INFO    MainThread:31128 [wandb_init.py:_jupyter_setup():287] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001A6937B9888>
+2021-09-08 01:46:07,352 INFO    MainThread:31128 [wandb_init.py:init():369] calling init triggers
+2021-09-08 01:46:07,353 INFO    MainThread:31128 [wandb_init.py:init():376] wandb.init called with sweep_config: {}
+config: {}
+2021-09-08 01:46:07,353 INFO    MainThread:31128 [wandb_init.py:init():418] starting backend
+2021-09-08 01:46:07,353 INFO    MainThread:31128 [backend.py:_multiprocessing_setup():71] multiprocessing start_methods=spawn, using: spawn
+2021-09-08 01:46:07,355 INFO    MainThread:31128 [backend.py:ensure_launched():123] starting backend process...
+2021-09-08 01:46:07,434 INFO    MainThread:31128 [backend.py:ensure_launched():128] started backend process with pid: 33156
+2021-09-08 01:46:07,435 INFO    MainThread:31128 [wandb_init.py:init():423] backend started and connected
+2021-09-08 01:46:07,485 INFO    MainThread:31128 [wandb_init.py:init():463] updated telemetry
+2021-09-08 01:46:07,486 INFO    MainThread:31128 [wandb_init.py:init():520] starting run threads in backend

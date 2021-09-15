@@ -1,0 +1,11 @@
+2021-09-08 10:58:30,900 INFO    MainThread:17088 [internal.py:wandb_internal():91] W&B internal server running at pid: 17088, started at: 2021-09-08 10:58:30.894787
+2021-09-08 10:58:30,902 INFO    WriterThread:17088 [datastore.py:open_for_write():77] open: d:\clone\subgraph_gen\wandb\offline-run-20210908_105829-1hqvxrg4\run-1hqvxrg4.wandb
+2021-09-08 10:58:30,902 DEBUG   HandlerThread:17088 [handler.py:handle_request():120] handle_request: run_start
+2021-09-08 10:58:32,640 DEBUG   HandlerThread:17088 [meta.py:__init__():34] meta init
+2021-09-08 10:58:32,640 DEBUG   HandlerThread:17088 [meta.py:__init__():48] meta init done
+2021-09-08 10:58:32,640 DEBUG   HandlerThread:17088 [meta.py:probe():190] probe
+2021-09-08 10:58:32,647 DEBUG   HandlerThread:17088 [meta.py:_save_pip():52] save pip
+2021-09-08 10:58:32,647 DEBUG   HandlerThread:17088 [meta.py:_save_pip():66] save pip done
+2021-09-08 10:58:32,647 DEBUG   HandlerThread:17088 [meta.py:probe():231] probe done
+2021-09-08 10:58:34,762 DEBUG   HandlerThread:17088 [handler.py:handle_request():120] handle_request: pause
+2021-09-08 10:58:34,762 INFO    HandlerThread:17088 [handler.py:handle_request_pause():514] stopping system metrics thread

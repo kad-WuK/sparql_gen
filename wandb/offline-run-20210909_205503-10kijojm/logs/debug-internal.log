@@ -1,0 +1,251 @@
+2021-09-09 20:55:04,001 INFO    MainThread:21208 [internal.py:wandb_internal():91] W&B internal server running at pid: 21208, started at: 2021-09-09 20:55:03.997312
+2021-09-09 20:55:04,002 INFO    WriterThread:21208 [datastore.py:open_for_write():77] open: d:\clone\subgraph_gen\wandb\offline-run-20210909_205503-10kijojm\run-10kijojm.wandb
+2021-09-09 20:55:04,003 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: run_start
+2021-09-09 20:55:05,593 DEBUG   HandlerThread:21208 [meta.py:__init__():34] meta init
+2021-09-09 20:55:05,593 DEBUG   HandlerThread:21208 [meta.py:__init__():48] meta init done
+2021-09-09 20:55:05,593 DEBUG   HandlerThread:21208 [meta.py:probe():190] probe
+2021-09-09 20:55:05,599 DEBUG   HandlerThread:21208 [meta.py:_save_pip():52] save pip
+2021-09-09 20:55:05,599 DEBUG   HandlerThread:21208 [meta.py:_save_pip():66] save pip done
+2021-09-09 20:55:05,599 DEBUG   HandlerThread:21208 [meta.py:probe():231] probe done
+2021-09-09 20:58:16,546 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 20:58:16,546 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 20:58:27,659 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 20:58:27,659 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 20:58:30,933 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 20:58:30,933 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 20:58:46,085 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 20:58:46,085 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 20:58:46,086 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 20:58:46,086 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 20:58:46,131 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 20:58:46,131 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 20:58:46,131 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 20:58:46,131 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 20:58:46,265 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 20:58:46,265 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 20:58:46,266 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 20:58:46,266 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 20:58:48,469 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 20:58:48,469 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 20:58:48,483 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 20:58:48,483 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 20:59:13,163 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 20:59:13,164 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 20:59:14,229 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 20:59:14,229 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 20:59:56,698 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 20:59:56,698 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 20:59:56,712 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 20:59:56,712 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 20:59:56,999 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 20:59:57,000 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 20:59:57,002 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 20:59:57,002 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 20:59:58,900 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 20:59:58,900 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 20:59:58,914 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 20:59:58,914 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 20:59:59,649 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 20:59:59,649 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 20:59:59,651 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 20:59:59,651 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:00:00,054 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:00:00,054 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:00:00,056 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:00:00,056 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:00:00,833 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:00:00,833 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:00:00,833 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:00:00,833 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:00:03,489 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:00:03,489 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:00:05,013 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:00:05,013 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:00:58,441 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:00:58,441 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:00:58,442 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:00:58,442 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:01:09,188 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:01:09,188 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:01:10,492 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:01:10,492 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:01:43,833 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:01:43,833 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:01:43,848 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:01:43,848 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:01:44,136 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:01:44,136 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:01:44,138 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:01:44,138 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:01:45,451 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:01:45,451 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:01:45,454 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:01:45,454 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:01:46,001 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:01:46,001 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:01:46,016 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:01:46,016 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:01:47,255 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:01:47,255 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:01:47,256 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:01:47,256 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:01:48,239 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:01:48,239 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:01:48,253 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:01:48,253 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:01:50,405 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:01:50,405 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:01:50,406 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:01:50,406 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:01:50,752 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:01:50,752 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:01:50,752 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:01:50,752 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:02:02,430 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:02:02,430 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:02:04,873 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:02:04,873 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:02:09,543 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:02:09,544 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:02:09,544 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:02:09,544 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:02:09,737 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:02:09,737 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:02:09,740 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:02:09,740 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:02:10,609 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:02:10,609 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:02:10,609 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:02:10,609 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:02:12,194 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:02:12,194 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:02:14,575 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:02:14,575 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:03:44,395 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:03:44,395 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:03:44,412 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:03:44,412 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:03:44,757 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:03:44,757 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:03:44,759 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:03:44,760 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:04:06,974 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:04:06,974 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:04:06,976 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:04:06,976 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:04:07,867 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:04:07,867 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:04:10,393 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:04:10,394 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:04:28,993 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:04:28,993 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:04:30,439 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:04:30,439 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:07:01,901 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:07:01,901 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:07:01,917 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:07:01,917 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:07:02,310 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:07:02,310 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:07:02,310 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:07:02,310 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:07:02,750 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:07:02,750 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:07:02,752 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:07:02,752 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:07:03,052 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:07:03,053 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:07:03,055 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:07:03,055 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:07:03,460 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:07:03,460 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:07:03,463 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:07:03,463 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:07:03,702 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:07:03,702 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:07:03,704 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:07:03,704 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:07:04,510 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:07:04,510 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:07:04,526 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:07:04,526 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:07:06,979 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:07:06,980 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:07:06,995 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:07:06,995 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:07:11,001 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:07:11,001 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:07:11,021 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:07:11,021 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:07:11,304 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:07:11,304 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:07:11,306 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:07:11,306 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:07:18,852 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:07:18,852 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:07:18,854 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:07:18,854 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:07:19,975 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:07:19,975 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:07:19,978 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:07:19,978 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:07:25,666 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:07:25,666 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:07:25,683 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:07:25,683 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:07:29,147 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:07:29,147 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:07:30,025 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:07:30,025 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:09:18,992 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:09:18,992 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:09:18,993 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:09:18,993 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:09:19,562 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:09:19,563 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:09:19,565 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:09:19,565 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:09:24,132 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:09:24,132 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:09:24,135 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:09:24,135 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:09:24,928 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:09:24,928 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:09:24,931 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:09:24,931 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:09:28,177 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:09:28,177 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:09:28,193 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:09:28,193 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:10:00,942 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:10:00,942 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:10:02,422 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:10:02,422 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:10:35,068 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:10:35,068 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:10:35,084 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:10:35,084 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:10:45,013 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:10:45,013 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:10:45,029 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:10:45,030 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:10:58,492 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:10:58,492 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:10:58,508 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:10:58,509 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:11:00,493 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:11:00,493 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:11:00,509 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:11:00,510 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:11:02,331 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:11:02,331 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:11:02,331 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:11:02,331 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:11:12,436 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:11:12,436 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:11:12,452 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:11:12,452 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-09 21:11:12,742 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: resume
+2021-09-09 21:11:12,742 INFO    HandlerThread:21208 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-09 21:11:12,742 DEBUG   HandlerThread:21208 [handler.py:handle_request():120] handle_request: pause
+2021-09-09 21:11:12,743 INFO    HandlerThread:21208 [handler.py:handle_request_pause():514] stopping system metrics thread

@@ -1,0 +1,19 @@
+2021-09-15 13:43:20,602 INFO    MainThread:6564 [internal.py:wandb_internal():91] W&B internal server running at pid: 6564, started at: 2021-09-15 13:43:20.598677
+2021-09-15 13:43:20,603 INFO    WriterThread:6564 [datastore.py:open_for_write():77] open: d:\clone\subgraph_gen\wandb\offline-run-20210915_134319-ihfqneb9\run-ihfqneb9.wandb
+2021-09-15 13:43:20,604 DEBUG   HandlerThread:6564 [handler.py:handle_request():120] handle_request: run_start
+2021-09-15 13:43:22,274 DEBUG   HandlerThread:6564 [meta.py:__init__():34] meta init
+2021-09-15 13:43:22,274 DEBUG   HandlerThread:6564 [meta.py:__init__():48] meta init done
+2021-09-15 13:43:22,274 DEBUG   HandlerThread:6564 [meta.py:probe():190] probe
+2021-09-15 13:43:22,281 DEBUG   HandlerThread:6564 [meta.py:_save_pip():52] save pip
+2021-09-15 13:43:22,281 DEBUG   HandlerThread:6564 [meta.py:_save_pip():66] save pip done
+2021-09-15 13:43:22,281 DEBUG   HandlerThread:6564 [meta.py:probe():231] probe done
+2021-09-15 13:48:55,235 DEBUG   HandlerThread:6564 [handler.py:handle_request():120] handle_request: pause
+2021-09-15 13:48:55,235 INFO    HandlerThread:6564 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-15 13:50:27,818 DEBUG   HandlerThread:6564 [handler.py:handle_request():120] handle_request: resume
+2021-09-15 13:50:27,818 INFO    HandlerThread:6564 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-15 13:50:27,819 DEBUG   HandlerThread:6564 [handler.py:handle_request():120] handle_request: pause
+2021-09-15 13:50:27,819 INFO    HandlerThread:6564 [handler.py:handle_request_pause():514] stopping system metrics thread
+2021-09-15 13:50:27,873 DEBUG   HandlerThread:6564 [handler.py:handle_request():120] handle_request: resume
+2021-09-15 13:50:27,873 INFO    HandlerThread:6564 [handler.py:handle_request_resume():509] starting system metrics thread
+2021-09-15 13:50:27,874 DEBUG   HandlerThread:6564 [handler.py:handle_request():120] handle_request: pause
+2021-09-15 13:50:27,874 INFO    HandlerThread:6564 [handler.py:handle_request_pause():514] stopping system metrics thread

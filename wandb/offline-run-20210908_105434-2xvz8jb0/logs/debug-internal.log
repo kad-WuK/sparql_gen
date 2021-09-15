@@ -1,0 +1,11 @@
+2021-09-08 10:54:35,694 INFO    MainThread:15624 [internal.py:wandb_internal():91] W&B internal server running at pid: 15624, started at: 2021-09-08 10:54:35.688920
+2021-09-08 10:54:35,696 INFO    WriterThread:15624 [datastore.py:open_for_write():77] open: d:\clone\subgraph_gen\wandb\offline-run-20210908_105434-2xvz8jb0\run-2xvz8jb0.wandb
+2021-09-08 10:54:35,696 DEBUG   HandlerThread:15624 [handler.py:handle_request():120] handle_request: run_start
+2021-09-08 10:54:37,380 DEBUG   HandlerThread:15624 [meta.py:__init__():34] meta init
+2021-09-08 10:54:37,380 DEBUG   HandlerThread:15624 [meta.py:__init__():48] meta init done
+2021-09-08 10:54:37,380 DEBUG   HandlerThread:15624 [meta.py:probe():190] probe
+2021-09-08 10:54:37,387 DEBUG   HandlerThread:15624 [meta.py:_save_pip():52] save pip
+2021-09-08 10:54:37,388 DEBUG   HandlerThread:15624 [meta.py:_save_pip():66] save pip done
+2021-09-08 10:54:37,388 DEBUG   HandlerThread:15624 [meta.py:probe():231] probe done
+2021-09-08 10:54:39,275 DEBUG   HandlerThread:15624 [handler.py:handle_request():120] handle_request: pause
+2021-09-08 10:54:39,276 INFO    HandlerThread:15624 [handler.py:handle_request_pause():514] stopping system metrics thread

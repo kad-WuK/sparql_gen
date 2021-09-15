@@ -1,0 +1,29 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.6",
+    "heartbeatAt": "2021-09-09T19:15:32.775470",
+    "startedAt": "2021-09-09T19:15:30.181408",
+    "docker": null,
+    "gpu": "GeForce RTX 3090",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9003",
+        "--control=9001",
+        "--hb=9000",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"6fcbca58-8dac-47f2-a04b-d9c7a775e732\"",
+        "--shell=9002",
+        "--transport=\"tcp\"",
+        "--iopub=9004",
+        "--f=C:\\Users\\WKD\\AppData\\Local\\Temp\\tmp-23396YQhSQ7tk9TWt.json"
+    ],
+    "state": "running",
+    "program": "d:\\clone\\subgraph_gen\\generator.py",
+    "codePath": "generator.py",
+    "host": "DESKTOP-A3MVOQS",
+    "username": "WKD",
+    "executable": "D:\\Anaconda\\python.exe"
+}

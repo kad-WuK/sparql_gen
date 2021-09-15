@@ -12,9 +12,9 @@ SELECT DISTINCT?address?floorsize WHERE {?city rdf:type schema:AdministrativeAre
 # How to use
 1. Clone this repo into your local environment
 
-2. Download the model in https://drive.google.com/file/d/1E6S_q44YIQ1LeyR42Qwlol9kZ-wgvfe5/view?usp=sharing
+2. Download the model in https://drive.google.com/file/d/1objBsNcap_pW8mEhkBjveOyRgtyTTZr6/view?usp=sharing
 
-3. Unzip into **./pretrained** folder
+3. Unzip into **./pretrained/gpt-neo-125M** folder
 
 4. Install dependencies by command `pip install -r requirements.txt`
 

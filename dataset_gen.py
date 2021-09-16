@@ -5,7 +5,7 @@ import string
 cityList = pd.read_csv('cities.csv')['u_1']
 streetaddresses = pd.read_csv('streetaddress.csv')['streetAddress']
 exampleList = []
-smaple_count = 10
+smaple_count = 50
 from gen import subgraphgen
 import spacy
 nlp = spacy.load("en_core_web_md")
@@ -1393,7 +1393,7 @@ for city in sampledList:
     for q in qList:
         question = q.format(city)
         type = generate_description(question)
-        query = 'SELECT DISTINCT ?address WHERE {{?city rdf:type schema:AdministrativeArea. ?city schema:name "{}"@nl. ?city schema:containsPlace ?address. ?address schema:additionalType typeBuilding:{}.}}'.format(city,'postkantoor')
+        query = 'SELECT DISTINCT ?address WHERE {{?city rdf:type schema:AdministrativeArea. ?city schema:name "{}"@nl. ?city schema:containsPlace ?address. ?address schema:additionalType typeBuilding:{}.}}'.format(city,'politiebureau')
         example = 'Suppose we have a graph pattern:\n' + type + '\n\nNow we have a natural language question: \n' + question + '\n\nThe corresponding sparql query is:\n' + query
         exampleList.append(example)
     sampledList = cityList.sample(n=smaple_count, frac=None, replace=False, weights=None, random_state=None, axis=None)

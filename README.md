@@ -10,6 +10,7 @@ This is the sparql generator where you can input your question in English and it
 SELECT DISTINCT?address?floorsize WHERE {?city rdf:type schema:AdministrativeArea.?city schema:name "Eindhoven"@nl.?city schema:containsPlace?address.?address schema:floorSize?floorsize. FILTER(?floorsize <= 1000) }
 
 # How to use
+## Run locally
 1. Clone this repo into your local environment
 
 2. Download the model in https://drive.google.com/file/d/1objBsNcap_pW8mEhkBjveOyRgtyTTZr6/view?usp=sharing
@@ -20,6 +21,8 @@ SELECT DISTINCT?address?floorsize WHERE {?city rdf:type schema:AdministrativeAre
 
 5. For comsuming the api, run `python api.py --question 'Your question here' `
 
+## Run on server
+To be done...
 # Types of questions allowed
 For now, the model is able to answer questions about:
 
